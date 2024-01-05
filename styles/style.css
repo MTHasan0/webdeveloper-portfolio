@@ -118,6 +118,12 @@ nav a {
 
 /* main section */
 
+main{
+    max-width: 1140px;
+    /* margin: 0px auto; */
+    margin: 0px auto;
+}
+
 /* about in main section */
 .about {
     border-radius: 10px;
@@ -126,3 +132,8 @@ nav a {
     margin: 130px 0px;
 }
 
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
