@@ -122,7 +122,7 @@ main {
     max-width: 1140px;
     /* margin: 0px auto; */
     margin: 0px auto;
-    
+
 }
 
 /* about in main section */
@@ -166,18 +166,47 @@ main {
     padding: 20px;
     align-items: center;
     border-radius: 10px;
-    
+
 }
 
-.skill:hover{
+.skill:hover {
     box-shadow: 5px 5px 20px black;
 }
 
-.skill-description{
+.skill-description {
     color: #757575;
 
 }
 
-.skill>img{
+.skill>img {
     border-radius: 3px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    
+
+}
+
+
+.resume-item-describe {
+    width: 511px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+.resume-item{
+    padding: 10px;
+    border: 2px black;
+
+}
+
+.resume-download-btn{
+    /* justify-content: space-around; */
+    text-align: center;
+    margin-top: 50px;
+
 }
