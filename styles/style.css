@@ -118,22 +118,66 @@ nav a {
 
 /* main section */
 
-main{
+main {
     max-width: 1140px;
     /* margin: 0px auto; */
     margin: 0px auto;
+    
 }
 
 /* about in main section */
 .about {
     border-radius: 10px;
-    background-color: rgb(252, 225, 225);
+    background-color: #fbd3b7;
+    box-shadow: 5px 5px 20px gray;
     padding: 130px;
     margin: 130px 0px;
 }
 
 
-.info-container{
+.info-container {
     display: flex;
     justify-content: space-around;
+}
+
+.about-info {
+
+    text-align: center;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+
+}
+
+.skill {
+    width: 267px;
+    height: 300px;
+    margin-bottom: 130px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.skill:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+.skill-description{
+    color: #757575;
+
+}
+
+.skill>img{
+    border-radius: 3px;
 }
