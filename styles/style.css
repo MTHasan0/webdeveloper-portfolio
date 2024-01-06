@@ -73,6 +73,11 @@ nav a {
 
 .header {
     background-color: rgb(252, 225, 225);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    /* background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat; */
 
 }
 
@@ -80,10 +85,6 @@ nav a {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    /* position: absolute; */
     justify-content: space-between;
 }
 
