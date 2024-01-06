@@ -210,3 +210,36 @@ main {
     margin-top: 50px;
 
 }
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130PX 200PX;
+    margin-top: 30px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: white;
+    border: 0px;
+    width: 100%;
+    
+}
+
+.social-links a{
+    margin-right: 10px;
+
+}
+
+.social-links a:hover{
+    box-shadow: 5px 5px 20px black;
+    border-radius: 5px;
+}
