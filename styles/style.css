@@ -89,8 +89,10 @@ nav a {
 }
 
 .banner .profile-pic {
-    width: 500px;
-    height: 600px;
+    width: 650px;
+    height: 700px;
+    position: relative;
+    /* top: 32px; */
     /* position: relative; */
 
 }
