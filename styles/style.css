@@ -1,4 +1,9 @@
 /* common shared style */
+
+.hide{
+    display: none;
+}
+
 body {
     font-family: 'lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
@@ -198,12 +203,14 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+    
 
 
 }
 .resume-item{
     padding: 10px;
     border: 2px black;
+    
 
 }
 
@@ -246,3 +253,38 @@ footer{
     box-shadow: 5px 5px 20px black;
     border-radius: 5px;
 }
+
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, .footer{
+        flex-direction: column;
+        
+        
+    }
+    .skill{
+        margin-bottom: 50px;
+        background-color: #fbd3b7;
+        box-shadow: 10px 10px 20px gray;
+    }
+
+    .resume-item-describe{
+        width: 95%;
+        margin: auto;
+    } 
+    .summery-of-resume{
+        padding: 10px;
+    }
+    .footer{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-column{
+        width: 95%;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"], textarea{
+        width: 80%;
+    }
+    
+}
+
